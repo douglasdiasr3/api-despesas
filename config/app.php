@@ -67,8 +67,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
-
+    'timezone' => 'America/Sao_Paulo',
     /*
     |--------------------------------------------------------------------------
     | Application Locale Configuration
@@ -187,6 +186,9 @@ return [
     | the aliases are "lazy" loaded so they don't hinder performance.
     |
     */
+
+    'date_format' => 'd/m/Y',
+
 
     'aliases' => [
 
